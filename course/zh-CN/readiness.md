@@ -14,7 +14,7 @@ state: needs_refresh
 competency_id: language.c.structs-strings
 state: ready
 competency_id: language.c.arrays-pointers
-state: needs_refresh
+state: ready
 competency_id: language.c.file-io
 state: needs_refresh
 competency_id: project.array-crud
