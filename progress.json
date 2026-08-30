@@ -6,12 +6,12 @@
     "revision": "local-unknown"
   },
   "course_status": "ready",
-  "learning_phase": "foundations",
+  "learning_phase": "milestones",
   "current_unit": {
-    "kind": "foundation",
-    "id": "foundation-03"
+    "kind": "milestone",
+    "id": "milestone-01"
   },
-  "current_milestone": 0,
+  "current_milestone": 1,
   "learner_profile": {
     "assessment_mode": "assume_beginner",
     "goals": [],
@@ -20,8 +20,8 @@
       {
         "id": "tooling.c.gcc-build",
         "category": "tooling",
-        "state": "needs_refresh",
-        "evidence_level": "self_reported",
+        "state": "ready",
+        "evidence_level": "demonstrated",
         "prerequisites": [],
         "required_by": [
           "milestone-01"
@@ -32,6 +32,11 @@
             "type": "learner_statement",
             "summary": "Learner reported having basically forgotten the relevant material (\"基本忘了\")",
             "timestamp": "2026-02-14T00:00:00Z"
+          },
+          {
+            "type": "student_work",
+            "summary": "F03 NameAndAge.c compiled with -Wall -Wextra and ran successfully",
+            "timestamp": "2026-08-30T00:00:00Z"
           }
         ]
       },
@@ -87,8 +92,8 @@
       {
         "id": "language.c.file-io",
         "category": "language",
-        "state": "needs_refresh",
-        "evidence_level": "self_reported",
+        "state": "ready",
+        "evidence_level": "demonstrated",
         "prerequisites": [
           "language.c.arrays-pointers"
         ],
@@ -101,6 +106,11 @@
             "type": "learner_statement",
             "summary": "Learner reported having basically forgotten the relevant material (\"基本忘了\")",
             "timestamp": "2026-02-14T00:00:00Z"
+          },
+          {
+            "type": "student_work",
+            "summary": "F03 NameAndAge.c read lines with fgets, parsed name|age with strtok, and handled missing fopen safely",
+            "timestamp": "2026-08-30T00:00:00Z"
           }
         ]
       },
@@ -129,8 +139,8 @@
       {
         "id": "project.delimited-persistence",
         "category": "project_concept",
-        "state": "needs_refresh",
-        "evidence_level": "self_reported",
+        "state": "ready",
+        "evidence_level": "demonstrated",
         "prerequisites": [
           "language.c.file-io",
           "language.c.structs-strings"
@@ -145,6 +155,11 @@
             "type": "learner_statement",
             "summary": "Learner reported having basically forgotten the relevant material (\"基本忘了\")",
             "timestamp": "2026-02-14T00:00:00Z"
+          },
+          {
+            "type": "student_work",
+            "summary": "F03 exercise completed with externally prepared pipe-delimited input and struct reconstruction",
+            "timestamp": "2026-08-30T00:00:00Z"
           }
         ]
       },
@@ -212,7 +227,7 @@
     {
       "id": "foundation-03",
       "number": 3,
-      "status": "analyzing",
+      "status": "passed",
       "competencies": [
         "language.c.file-io",
         "project.delimited-persistence"
@@ -303,5 +318,5 @@
   "open_improvements": [],
   "learner_choices": [],
   "last_review": null,
-  "recommended_next_action": "complete_foundation_03_file_strtok_then_start_milestone_01"
+  "recommended_next_action": "start_milestone_01_minimal_value"
 }

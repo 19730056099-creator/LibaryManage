@@ -10,17 +10,17 @@ language: zh-CN
 完整依赖图见 `knowledge-graph.md`：7 项能力（tooling 1、language 3、project_concept 2、domain 1），对其首个里程碑均为阻塞项。
 
 competency_id: tooling.c.gcc-build
-state: needs_refresh
+state: ready
 competency_id: language.c.structs-strings
 state: ready
 competency_id: language.c.arrays-pointers
 state: ready
 competency_id: language.c.file-io
-state: needs_refresh
+state: ready
 competency_id: project.array-crud
 state: needs_refresh
 competency_id: project.delimited-persistence
-state: needs_refresh
+state: ready
 competency_id: domain.borrow-inventory
 state: needs_refresh
 

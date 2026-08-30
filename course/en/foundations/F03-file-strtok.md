@@ -85,4 +85,4 @@ rationale: The unit's mechanism mirrors this mature-code location.
 
 ## Completion Decision
 
-(not started)
+**passed**: The learner read records from the externally prepared `NameAndAge.txt`, split them with `strtok`, stored them in two struct instances, and handled a `NULL` return from `fopen`. Next: `milestone-01`.

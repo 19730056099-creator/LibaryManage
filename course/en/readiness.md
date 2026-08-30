@@ -10,17 +10,17 @@ language: en
 See `knowledge-graph.md` for the full DAG: 7 competencies (1 tooling, 3 language, 2 project_concept, 1 domain), all blocking for their first milestone.
 
 competency_id: tooling.c.gcc-build
-state: needs_refresh
+state: ready
 competency_id: language.c.structs-strings
 state: ready
 competency_id: language.c.arrays-pointers
 state: ready
 competency_id: language.c.file-io
-state: needs_refresh
+state: ready
 competency_id: project.array-crud
 state: needs_refresh
 competency_id: project.delimited-persistence
-state: needs_refresh
+state: ready
 competency_id: domain.borrow-inventory
 state: needs_refresh
 

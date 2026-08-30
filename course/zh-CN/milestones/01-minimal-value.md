@@ -2,7 +2,6 @@
 artifact_id: milestone-01
 language: zh-CN
 ---
-
 # 里程碑
 
 milestone_id: milestone-01
@@ -25,7 +24,7 @@ milestone_id: milestone-01
 
 - 一个 `Book` 结构体：`char id[20]; char title[100]; char author[100]; int quantity; int available;`
 - 全局数组 + `bookCount` 计数器，容量 1000。
-- `addBook` / `listAllBooks` / `findBookIndex` 三个函数。
+- `addBook` / `listAllBooks` / `findBookIndex` /  displayMenu() 四个函数。
 - `do-while` 菜单循环 + `switch` 分发。
 
 ## 约束

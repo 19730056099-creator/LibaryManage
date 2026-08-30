@@ -85,4 +85,4 @@ rationale: The unit's mechanism mirrors this mature-code location.
 
 ## 完成结论
 
-（未开始）
+**passed**：已从外部准备的 `NameAndAge.txt` 逐行读取记录，使用 `strtok` 拆分并保存到两个结构体实例；同时处理了 `fopen` 返回 `NULL` 的情况。下一步进入 `milestone-01`。
