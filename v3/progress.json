@@ -1,0 +1,273 @@
+{
+  "schema_version": 3,
+  "repository": {
+    "name": "LibaryManageSrc",
+    "source": "/home/mengzhouyi/LibaryManageSrc",
+    "revision": "eccdf9f"
+  },
+  "course_status": "ready",
+  "learning_phase": "foundations",
+  "current_unit": {
+    "kind": "foundation",
+    "id": "foundation-01"
+  },
+  "current_milestone": 0,
+  "learner_profile": {
+    "assessment_mode": "assume_beginner",
+    "learning_mode": "balanced",
+    "goals": [
+      "从零理解并重建 LibaryManageSrc 的 C 图书管理路径"
+    ],
+    "constraints": [],
+    "competencies": [
+      {
+        "id": "tooling.c.gcc-build",
+        "category": "tooling",
+        "state": "learning",
+        "evidence_level": "self_reported",
+        "practice_depth": "unseen",
+        "prerequisites": [],
+        "required_by": ["milestone-01"],
+        "blocking": true,
+        "evidence": [
+          {
+            "type": "learner_statement",
+            "summary": "Learner has studied C syntax but has not built a project and reports that many details are unclear.",
+            "timestamp": "2026-08-31T13:44:05Z"
+          }
+        ]
+      },
+      {
+        "id": "language.c.c-control-input",
+        "category": "language",
+        "state": "learning",
+        "evidence_level": "self_reported",
+        "practice_depth": "unseen",
+        "prerequisites": [],
+        "required_by": ["milestone-01", "milestone-06"],
+        "blocking": true,
+        "evidence": [
+          {
+            "type": "learner_statement",
+            "summary": "Learner has studied C syntax but has not built a project and reports that many details are unclear.",
+            "timestamp": "2026-08-31T13:44:05Z"
+          }
+        ]
+      },
+      {
+        "id": "language.c.structs-strings",
+        "category": "language",
+        "state": "learning",
+        "evidence_level": "self_reported",
+        "practice_depth": "unseen",
+        "prerequisites": [],
+        "required_by": ["milestone-01", "milestone-02", "milestone-03", "milestone-04", "milestone-05", "milestone-06"],
+        "blocking": true,
+        "evidence": [
+          {
+            "type": "learner_statement",
+            "summary": "Learner has studied C syntax but has not built a project and reports that many details are unclear.",
+            "timestamp": "2026-08-31T13:44:05Z"
+          }
+        ]
+      },
+      {
+        "id": "language.c.arrays-pointers",
+        "category": "language",
+        "state": "needs_refresh",
+        "evidence_level": "self_reported",
+        "practice_depth": "unseen",
+        "prerequisites": ["language.c.structs-strings"],
+        "required_by": ["milestone-01", "milestone-02", "milestone-04", "milestone-05", "milestone-06"],
+        "blocking": true,
+        "evidence": [
+          {
+            "type": "learner_statement",
+            "summary": "Learner has studied C syntax but has not built a project and reports that many details are unclear.",
+            "timestamp": "2026-08-31T13:44:05Z"
+          }
+        ]
+      },
+      {
+        "id": "language.c.file-io",
+        "category": "language",
+        "state": "needs_refresh",
+        "evidence_level": "self_reported",
+        "practice_depth": "unseen",
+        "prerequisites": ["language.c.structs-strings"],
+        "required_by": ["milestone-03", "milestone-05", "milestone-06"],
+        "blocking": true,
+        "evidence": [
+          {
+            "type": "learner_statement",
+            "summary": "Learner has studied C syntax but has not built a project and reports that many details are unclear.",
+            "timestamp": "2026-08-31T13:44:05Z"
+          }
+        ]
+      },
+      {
+        "id": "language.c.time-format",
+        "category": "language",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": [],
+        "required_by": ["milestone-05"],
+        "blocking": false,
+        "evidence": []
+      },
+      {
+        "id": "project.array-crud",
+        "category": "project_concept",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": ["language.c.structs-strings", "language.c.arrays-pointers"],
+        "required_by": ["milestone-02", "milestone-04", "milestone-06"],
+        "blocking": false,
+        "evidence": []
+      },
+      {
+        "id": "project.delimited-persistence",
+        "category": "project_concept",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": ["language.c.file-io", "language.c.structs-strings"],
+        "required_by": ["milestone-03", "milestone-05", "milestone-06"],
+        "blocking": false,
+        "evidence": []
+      },
+      {
+        "id": "domain.borrow-inventory",
+        "category": "domain",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": ["project.array-crud", "language.c.arrays-pointers", "language.c.time-format"],
+        "required_by": ["milestone-05", "milestone-06"],
+        "blocking": false,
+        "evidence": []
+      },
+      {
+        "id": "project.input-validation",
+        "category": "project_concept",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": ["language.c.c-control-input"],
+        "required_by": ["milestone-06"],
+        "blocking": false,
+        "evidence": []
+      },
+      {
+        "id": "project.defensive-parsing",
+        "category": "project_concept",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": ["language.c.file-io", "project.delimited-persistence"],
+        "required_by": ["milestone-06"],
+        "blocking": false,
+        "evidence": []
+      },
+      {
+        "id": "project.borrow-delete-policy",
+        "category": "project_concept",
+        "state": "unknown",
+        "evidence_level": "none",
+        "practice_depth": "unseen",
+        "prerequisites": ["domain.borrow-inventory"],
+        "required_by": ["milestone-06"],
+        "blocking": false,
+        "evidence": []
+      }
+    ]
+  },
+  "assessment_history": [
+    {
+      "mode": "assume_beginner",
+      "summary": "Learner chose the beginner route and clarified that C syntax was studied, but project experience is absent and many details need refresh; use concise project-oriented foundations rather than a generic C course.",
+      "timestamp": "2026-08-31T13:44:05Z"
+    }
+  ],
+  "practice_evidence": [],
+  "foundation_units": [
+    {
+      "id": "foundation-01",
+      "number": 1,
+      "status": "ready",
+      "competencies": ["tooling.c.gcc-build", "language.c.c-control-input", "language.c.structs-strings"],
+      "required_by": ["milestone-01"],
+      "acceptance": ["f01-a01"],
+      "risk_notes": []
+    },
+    {
+      "id": "foundation-02",
+      "number": 2,
+      "status": "ready",
+      "competencies": ["language.c.arrays-pointers"],
+      "required_by": ["milestone-01", "milestone-02"],
+      "acceptance": ["f02-a01"],
+      "risk_notes": []
+    },
+    {
+      "id": "foundation-03",
+      "number": 3,
+      "status": "ready",
+      "competencies": ["language.c.file-io", "project.delimited-persistence"],
+      "required_by": ["milestone-03", "milestone-05", "milestone-06"],
+      "acceptance": ["f03-a01"],
+      "risk_notes": []
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-01",
+      "number": 1,
+      "status": "ready",
+      "acceptance": ["m01-a01", "m01-a02", "m01-a03", "m01-a04"],
+      "risk_notes": []
+    },
+    {
+      "id": "milestone-02",
+      "number": 2,
+      "status": "ready",
+      "acceptance": ["m02-a01", "m02-a02", "m02-a03", "m02-a04"],
+      "risk_notes": []
+    },
+    {
+      "id": "milestone-03",
+      "number": 3,
+      "status": "ready",
+      "acceptance": ["m03-a01", "m03-a02", "m03-a03", "m03-a04"],
+      "risk_notes": []
+    },
+    {
+      "id": "milestone-04",
+      "number": 4,
+      "status": "ready",
+      "acceptance": ["m04-a01", "m04-a02", "m04-a03"],
+      "risk_notes": []
+    },
+    {
+      "id": "milestone-05",
+      "number": 5,
+      "status": "ready",
+      "acceptance": ["m05-a01", "m05-a02", "m05-a03", "m05-a04"],
+      "risk_notes": []
+    },
+    {
+      "id": "milestone-06",
+      "number": 6,
+      "status": "ready",
+      "acceptance": ["m06-a01", "m06-a02", "m06-a03", "m06-a04"],
+      "risk_notes": []
+    }
+  ],
+  "hint_history": [],
+  "open_improvements": [],
+  "learner_choices": ["assume_beginner", "balanced"],
+  "last_review": null,
+  "recommended_next_action": "complete_foundation_01_build_and_structs"
+}

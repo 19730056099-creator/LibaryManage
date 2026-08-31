@@ -1,0 +1,6 @@
+# Windows download metadata
+*:Zone.Identifier
+
+# Local C build outputs
+**/student/**/main
+**/student/**/NameAndAge
